@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{  
+  font-family: "Hiragino Sans W6";
+  width: 100%;
+  margin: 0 auto;
+
+  }
+
+header{
+  height: 80px;
+  padding: 40px;
+ 
+}
+
+main{
+  margin-bottom: 80px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color:#000;
+  text-decoration: none;
+}
+.wrapper{
+  margin: 0 auto;
+
+  max-width: 1100px;
+}
+.main img {
+  width: 100%;
+}
+.logo{
+
+ margin: 0 auto;
+}
+
+.logo img{
+  margin: 0 auto;
+
+  display: block;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 80px ;
+}
+.menu ul{
+  display: flex;
+ 
+}
+
+.menu li{
+  padding: 0 40px;
+  
+}
+
+.concept{
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 80px;
+
+}
+
+.conceptimg img{
+  max-width: 555px;
+}
+.comment{
+  margin-left: 40px;
+}
+
+.comment h2{
+  margin-bottom: 20px;
+}
+
+.comment h1{
+  margin-bottom: 40px;
+  color: #24A8BF;
+}
+
+.blog-title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.blog-title h2{
+  color: #24A8BF;
+}
+
+.blog1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.blog2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.item{
+  width: 30%;
+  
+}
+
+.item img{
+  width: 100%;
+}
+
+.btn{
+  margin: 0 auto;
+  border: 1px solid #24A8BF;
+  border-radius: 4px;
+  width: 220px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn a{
+  display: block;
+  color: #24A8BF;
+  
+  
+}
+
+.btm img{
+  display: block;
+
+}
+
+.btnimg{
+  position: absolute;
+  right: 10px;
+}
+
+footer{
+  background-color: #000;
+  
+}
+
+.footerlogo{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 200px;
+}
+.logoimg{
+  width: 180px;
+  height: 36px;
+}
+footer h4{
+  color: #fff;
+  font-weight:lighter;
+  display: block;
+  text-align: center;
+  height: 100px;
+  
+}
